@@ -1,0 +1,111 @@
+/* General Reset & Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-weight: 700;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1a1a1a;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    color: #5BADFF !important; /* Updated primary blue */
+  }
+  
+  .nav-link {
+    color: #ddd !important;
+    margin-left: 10px;
+  }
+  
+  .nav-link:hover {
+    color: #5BADFF !important;
+  }
+  
+  /* Hero Section */
+  section.bg-light {
+    background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .hero-text {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #5BADFF;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3398F0;
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 60px 0;
+  }
+  
+  .feature-card {
+    background-color: #ffffff;
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Carousel */
+  #screenshots {
+    background-color: #fefefe;
+  }
+  
+  .carousel-item img {
+    max-height: 600px;
+    object-fit: contain;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #5BADFF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  #modalImage {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+  }
+  
+  
+
+  
